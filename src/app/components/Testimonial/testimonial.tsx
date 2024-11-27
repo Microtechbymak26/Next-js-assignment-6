@@ -1,7 +1,7 @@
-import { ArrowBigLeft, ArrowLeft, ArrowRight } from "lucide-react";
 import React from "react";
 import { FaStar } from "react-icons/fa6";
 import Image from "next/image";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 
 const testimonial = () => {
   return (
@@ -22,18 +22,18 @@ const testimonial = () => {
             <div className="w-[500px] h-[132px] flex items-center justify-center max-md:h-[450px]">
               <div className="ml-[25px] font-roboto font-[400] pt-[90px] max-md:pt-[20px] ">
                 <p>
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse varius enim in eros elementum tristique. Duis
-                  cursus, mi quis viverra ornare."
+                  cursus, mi quis viverra ornare
                 </p>
 
                 <div className="mt-[30px] flex">
                   <Image
                     src="/image/smallimage.jpg"
-                    alt=""
+                    alt="image"
                     width={56}
                     height={56}
-                    className=""
+              
                   />
 
                   <p className="mt-[10px] ml-[20px] font-roboto font-[600]">
@@ -57,18 +57,18 @@ const testimonial = () => {
             <div className="w-[500px] h-[132px] flex items-center justify-center max-md:h-[450px]">
               <div className="ml-[25px] font-roboto font-[400] pt-[90px] max-md:pt-[20px]">
                 <p>
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse varius enim in eros elementum tristique. Duis
-                  cursus, mi quis viverra ornare."
+                  cursus, mi quis viverra ornare
                 </p>
 
                 <div className="mt-[30px] flex">
                   <Image
                     src="/image/smallimage2.jpg"
-                    alt=""
+                    alt="image"
                     width={56}
                     height={56}
-                    className=""
+                    
                   />
 
                   <p className="mt-[10px] ml-[20px] font-roboto font-[600]">
@@ -92,18 +92,18 @@ const testimonial = () => {
             <div className="w-[500px] h-[132px] flex items-center justify-center max-md:h-[450px]">
               <div className="ml-[25px] font-roboto font-[400] pt-[90px] max-md:pt-[20px]">
                 <p>
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse varius enim in eros elementum tristique. Duis
-                  cursus, mi quis viverra ornare."
+                  cursus, mi quis viverra ornare
                 </p>
 
                 <div className="mt-[30px] flex">
                   <Image
                     src="/image/smallimage3.jpg"
-                    alt=""
+                    alt="image"
                     width={56}
                     height={56}
-                    className=""
+                    
                   />
 
                   <p className="mt-[10px] ml-[20px] font-roboto font-[600]">
