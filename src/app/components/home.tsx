@@ -7,6 +7,7 @@ import Programs from './Programs/programs'
 import Teams from './Teams/teams'
 import Testimonial from './Testimonial/testimonial'
 import Footer from './Footer/footer'
+import Image from 'next/image'
 
 const home = () => {
   return (
@@ -20,27 +21,27 @@ const home = () => {
 
         <div className="w-[880px] h-[100px] py-[8.74] gap-[19.12] flex flex-row ">
           <div className="flex ">
-            <img src="/image/logo-1.svg" alt="" className="gap-[100px] " />
+            <Image src="/image/logo-1.svg" width={640} height={900} alt="" className="gap-[100px] " />
           </div>
 
           <div className="flex">
-            <img src="/image/logo-2.svg" alt="" className="gap-[100px]" />
+            <Image src="/image/logo-2.svg" width={640} height={900} alt="" className="gap-[100px]" />
           </div>
 
           <div className=" flex ">
-            <img src="/image/logo-3.svg" alt="" />
+            <Image src="/image/logo-3.svg" width={640} height={900} alt="" />
           </div>
 
           <div className="flex">
-            <img src="/image/logo-4.svg" alt="" />
+            <Image src="/image/logo-4.svg" width={640} height={900} alt="" />
           </div>
 
           <div className="flex ">
-            <img src="/image/logo-5.svg" alt="" />
+            <Image src="/image/logo-5.svg" width={640} height={900} alt="" />
           </div>
 
           <div className=" flex ">
-            <img src="/image/logo-6.svg" alt="" />
+            <Image src="/image/logo-6.svg" width={640} height={900} alt="" />
           </div>
         </div>
       </div>
