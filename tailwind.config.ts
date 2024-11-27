@@ -9,6 +9,15 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+		screens: {
+			xs: "375px", // Extra small screens
+			sm: "640px", // Small screens
+			md: "768px", // Medium screens
+			lg: "1024px", // Large screens
+			xl: "1280px", // Extra large screens
+			xxl: "1440px", // 2x Extra large screens
+			xxx: "1920px"
+		},
   		fontFamily: {
   			roboto: ["Roboto" , "san-serif"],
   			inter: ["Inter", "sans-serif"]

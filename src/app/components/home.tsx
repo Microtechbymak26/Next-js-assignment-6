@@ -13,6 +13,37 @@ const home = () => {
     <div>
       <Nav/>
       <Hero/>
+      <div className="bg-[#f7f7f7] relative w-full h-full px-[64px] py-[60px] justify-between flex items-start max-md:py-[0px] max-md:gap-0 max-md:items-start max-md:px-[15px] max-md:overflow-hidden max-md:flex-col">
+        <h5 className="w-[320px] h-[68px] text-[24px] font-[700] font-roboto leading-[33.6px] text-black text-lg md:text-2xl text-start mb-6 max-md:mb-0 max-md:text-start">
+          Trusted by 2000 + companies worldwide.
+        </h5>
+
+        <div className="w-[880px] h-[100px] py-[8.74] gap-[19.12] flex flex-row ">
+          <div className="flex ">
+            <img src="/image/logo-1.svg" alt="" className="gap-[100px] " />
+          </div>
+
+          <div className="flex">
+            <img src="/image/logo-2.svg" alt="" className="gap-[100px]" />
+          </div>
+
+          <div className=" flex ">
+            <img src="/image/logo-3.svg" alt="" />
+          </div>
+
+          <div className="flex">
+            <img src="/image/logo-4.svg" alt="" />
+          </div>
+
+          <div className="flex ">
+            <img src="/image/logo-5.svg" alt="" />
+          </div>
+
+          <div className=" flex ">
+            <img src="/image/logo-6.svg" alt="" />
+          </div>
+        </div>
+      </div>
       <Courses/>
       <Achievements/>
       <Programs/>

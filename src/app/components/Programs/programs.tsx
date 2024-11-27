@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image"; 
 
 const programs = () => {
   return (
@@ -21,11 +22,15 @@ const programs = () => {
         </div>
       </div>
 
-      <div className="w-full h-[38%] flex items-center justify-between">
+      <div className="w-full h-[38%] flex items-center justify-between max-md:flex-col max-md:gap-12">
         {/* card1 */}
         <div className="gap-[2px] h-[534px] ">
-          <img src="/image/card1.jpg" alt="Learn Skills" />
-
+          <Image
+          src="/image/card1.jpg"
+          alt=""
+          width={400}
+          height={500}
+          />
           <div className="bg-[#F7F7F7] pt-[9px] h-[250px]">
             <div className="flex justify-between items-center">
               <p className="font-roboto font-semibold text-black mt-5">
@@ -49,9 +54,15 @@ const programs = () => {
         </div>
         {/* card2 */}
         <div className="gap-[2px] h-[534px] w-[416px]">
-          <img src="/image/card2.jpg" alt="Learn Skills" />
+          
+          <Image
+          src="/image/card2.jpg"
+          alt=""
+          width={400}
+          height={50}
+          />
 
-          <div className="bg-[#F7F7F7] pt-[9px] h-[250px]">
+          <div className="bg-[#F7F7F7] pt-[9px] h-[250px] w-[400px]">
             <div className="flex justify-between items-center">
               <p className="font-roboto font-semibold text-black mt-5 ml-4">
                 Programmimg
@@ -74,7 +85,13 @@ const programs = () => {
         </div>
         {/* card3 */}
         <div className="gap-[2px] h-[534px]">
-          <img src="/image/card3.jpg" alt="Learn Skills" />
+        
+          <Image
+          src="/image/card3.jpg"
+          alt=""
+          width={400}
+          height={500}
+          />
 
           <div className="bg-[#F7F7F7] pt-[9px] h-[250px]">
             <div className="flex justify-between items-center">
@@ -99,10 +116,16 @@ const programs = () => {
         </div>
       </div>
 
-      <div className="w-full h-[38%] flex items-center justify-between">
+      <div className="w-full h-[38%] flex items-center justify-between max-md:hidden ">
         {/* card1 */}
         <div className="gap-[2px] h-[534px]">
-          <img src="/image/card4.jpg" alt="Learn Skills" />
+        
+          <Image
+          src="/image/card4.jpg"
+          alt=""
+          width={400}
+          height={500}
+          />
 
           <div className="bg-[#F7F7F7] pt-[9px] h-[250px]">
             <div className="flex justify-between items-center">
@@ -125,7 +148,13 @@ const programs = () => {
         </div>
         {/* card2 */}
         <div className="gap-[32px] h-[534px]">
-          <img src="/image/card5.jpg" alt="Learn Skills" />
+       
+          <Image
+          src="/image/card5.jpg"
+          alt=""
+          width={400}
+          height={500}
+          />
 
           <div className="bg-[#F7F7F7] pt-[9px] h-[250px]">
             <div className="flex justify-between items-center">
@@ -150,7 +179,13 @@ const programs = () => {
         </div>
         {/* card3 */}
         <div className="gap-[32px] h-[534px]">
-          <img src="/image/card6.jpg" alt="Learn Skills" />
+        
+          <Image
+          src="/image/card6.jpg"
+          alt=""
+          width={400}
+          height={500}
+          />
 
           <div className="bg-[#F7F7F7] pt-[9px] h-[250px]">
             <div className="flex justify-between items-center">
@@ -166,7 +201,7 @@ const programs = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing eli.Suspendisse
               varius enim in eros.
             </p>
-            <div className="mt-9">
+            <div className="mt-9 ">
               <button className="h-[40px] rounded-[5px] flex items-center justify-center border-solid border-2 border-black px-[20px] py-[8px] text-[16px] text-black ml-4">
                 Enroll Now
               </button>

@@ -1,24 +1,25 @@
-import { Section } from 'lucide-react'
 import React from 'react'
 import { FaDribbble, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import Image from 'next/image'
 
 const teams = () => {
   return (
     
       
-      <section className="w-full h-[895px]  bg-[#f7f7f7] flex flex-col justify-center items-center py-[60px]">
+      <section className="w-full h-[895px]  bg-[#f7f7f7] flex flex-col justify-center items-center py-[60px] max-md:py-[30px] max-md:h-fit">
       <div className="flex flex-col w-[66%] h-[20%] items-center justify-between">
         <h1 className="font-roboto font-[700] text-[56px]">Our Team</h1>
-        <p className="text-[18px] robot-regular mt-[30px]">
+        <p className="text-[18px] robot-regular mt-[20px] text-center">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
       </div>
 
-      <div className="w-full h-[38%] flex items-center justify-between gap-[4px] pt-[80px]">
+      <div className="w-full h-[38%] flex items-center justify-between gap-[4px] pt-[80px] max-md:flex-col max-md:gap-12 ">
         {/* card1 */}
 
         <div className=" h-[273px] items-center pt-[20px]">
-          <img src="/image/person1.jpg" alt="Learn Skills" className='flex justify-center items-center pl-[150px]' />
+        <Image src="/image/person1.jpg" alt='' width={80} height={80} className='ml-[150px]'/>
+
           
             <div className="flex justify-center items-center">
               <p className="font-roboto font-semibold text-[20px] text-black mt-5">
@@ -38,7 +39,8 @@ const teams = () => {
         </div>
 
         <div className=" h-[273px] items-center pt-[20px]">
-          <img src="/image/person2.jpg" alt="Learn Skills" className='flex justify-center items-center pl-[150px]' />
+        <Image src="/image/person2.jpg" alt='' width={80} height={80} className='ml-[150px]'/>
+
           
             <div className="flex justify-center items-center">
               <p className="font-roboto font-semibold text-[20px] text-black mt-5">
@@ -56,7 +58,8 @@ const teams = () => {
           
         </div>
         <div className=" h-[273px] items-center pt-[20px]">
-          <img src="/image/person3.jpg" alt="Learn Skills" className='flex justify-center items-center pl-[150px]' />
+        <Image src="/image/person3.jpg" alt='' width={80} height={80} className='ml-[150px]'/>
+
           
             <div className="flex justify-center items-center">
               <p className="font-roboto font-semibold text-[20px] text-black mt-5">
@@ -74,10 +77,12 @@ const teams = () => {
           
         </div>
         </div>
-        <div className="w-full h-[38%] flex items-center justify-between pt-[80px]">
+        <div className="w-full h-[38%] flex items-center justify-between pt-[80px] max-md:hidden ">
         {/* card2 */}
         <div className=" h-[273px] items-center pt-[20px]">
-          <img src="/image/person4.jpg" alt="Learn Skills" className='flex justify-center items-center pl-[150px]' />
+          
+          <Image src="/image/person4.jpg" alt='' width={80} height={80} className='ml-[150px]'/>
+
           
             <div className="flex justify-center items-center">
               <p className="font-roboto font-semibold text-[20px] text-black mt-5">
@@ -96,7 +101,8 @@ const teams = () => {
         </div>
 
         <div className=" h-[273px] items-center pt-[20px]">
-          <img src="/image/person5.jpg" alt="Learn Skills" className='flex justify-center items-center pl-[150px]' />
+       
+          <Image src="/image/person5.jpg" alt='' width={80} height={80} className='ml-[150px]'/>
           
             <div className="flex justify-center items-center">
               <p className="font-roboto font-semibold text-[20px] text-black mt-5">
@@ -115,7 +121,8 @@ const teams = () => {
         </div>
 
         <div className=" h-[273px] items-center pt-[20px]">
-          <img src="/image/person6.jpg" alt="Learn Skills" className='flex justify-center items-center pl-[150px]' />
+        <Image src="/image/person6.jpg" alt='' width={80} height={80} className='ml-[150px]'/>
+
           
             <div className="flex justify-center items-center">
               <p className="font-roboto font-semibold text-[20px] text-black mt-5">
@@ -139,17 +146,7 @@ const teams = () => {
         
     </section>
       
-        // <div className='bg-[#f7f7f7] w-full h-[130vh] flex flex-col items-center justify-between py-[80px]'> */} */}
-        //    {/* <div className='flex flex-col w-[66%] h-[16%] items-center justify-between'> */}
-            //    {/* /<h1 className='roboto-bold text-[48px] font-[700]'>Our Team</h1> */}
-            //    {/* <p className='roboto-regular text-[18px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p> */}
-        //    {/* </div> */}
-        //  {/* <div className='w-full h-[74%] flex flex-col items-center justify-between gap-[40px]'> */}
-        //  {/* <div className='w-full h-[50%] flex items-center justify-evenly'> */}
-        //    {/* <img src="/image/person1.jpg" alt="Learn Skills" /> */}
-        //  {/* </div> */}
-        //  {/* </div */}
-    //    {/* </div> */} 
+
       
       
   )
