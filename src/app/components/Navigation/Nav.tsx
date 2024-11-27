@@ -14,7 +14,7 @@ const Nav = () => {
       <div className="w-full h-[72px] flex items-center justify-between border-b border-black bg-[#F7F7F7] px-[50px] max-md:hidden max-md:px-[20px]">
         <div className="flex items-center gap-4">
           <span className="text-sm font-roboto">
-            Phone Number: 956 742 455 678{" "}
+            Phone Number: 956 742 455 678
           </span>
           <div className="h-6 w-px bg-gray-400"></div>
           <span className="text-sm font-roboto ">Email: info@ddsgnr.com</span>
