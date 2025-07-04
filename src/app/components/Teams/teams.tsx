@@ -50,7 +50,7 @@ const teams = () => {
             <p className=" flex justify-center items-center w-[382px] text-[18px] font-[400]">
             Nursing Assistant
             </p>
-            <div className='w-[32%] h-[25px] flex items-end justify-around ml-[120px] mt-[30px]'>
+            <div className='w-[32%] h-[25px] flex items-end justify-around  ml-[120px] mt-[30px]'>
           <FaLinkedin className='w-full h-full' />
           <FaTwitter className='w-full h-full' />
           <FaDribbble className='w-full h-full' />

@@ -27,7 +27,7 @@ const Nav = () => {
           <FaLinkedin className="h-full w-[18%] cursor-pointer" />
         </div>
       </div>
-
+    
       {/* second nav */}
       <div className="pt-6 ">
         <div className="w-full h-20 flex items-center justify-between px-10 border-b border-black bg-[#F7F7F7] max-md:bg-white max-md:border-b-[3px] max-md:border-black max-md:px-2">

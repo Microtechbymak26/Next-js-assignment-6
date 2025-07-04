@@ -30,7 +30,7 @@ const hero = () => {
             alt=""
             width={640}
             height={900}
-          />
+          />  
         </div>
 
       </div>
